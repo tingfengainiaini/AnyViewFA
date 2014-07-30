@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout_catalog"
+	android:background="@drawable/listbg" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<ListView android:id="@+id/ListView_catalog"
+		android:layout_alignParentTop="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</ListView>
+	<TextView
+	  android:id="@+id/recentMusic"
+	  android:layout_below="@id/ListView_catalog"
+	  android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="最近播放的音乐"
+		/>
+	<ListView android:id="@+id/ListView_recent"
+		android:layout_below="@id/recentMusic" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</ListView>
+	
+	<GridView android:id="@+id/GridView_toolbar"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"></GridView>\
+</RelativeLayout>

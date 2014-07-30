@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ListActivity!</string>
+    <string name="app_name">Anyview for Android</string>
+      <string name="up_one_level">返回上级</string>
+    <string name="current_dir">.</string>
+    <string name="exit">退出</string>
+    <string name="open">打开</string>
+    <string name="copy">复制</string>
+    <string name="cut">剪切</string>
+    <string name="rename">重命名</string>
+    <string name="delete">删除</string>
+    <string name="property">属性</string>
+    <string name="paste">粘贴</string>
+    <string name="nosdcard">没有存储卡</string>
+    <string name="alert_dialog_title1">创建文件夹</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    
+    <string name="help1">文件管理：长按列表中某一项会出现菜单，其中包括“删除”，“复制”，“剪切”，“重命名”，“属性”，而menu键可直接调出“新建文件夹”，“粘贴”，“退出管理”</string>
+    <string name="help2">电子书：本地书库，自动扫描，长按列表中某一项可弹出包含“打开”“删除”的菜单，进入阅读器后，点击menu,会弹出菜单，其中包含很多选项，这里就不一一列举了，用法在相应的是位置都有提示</string>
+    <string name="help3"> 音乐播放：长按响应歌曲，可选择“播放”或“删除”。音乐播放界面，有歌词同步显示，音乐小图标的越动显示，可以快进、快退、暂停、上一曲、下一曲，更可以滑动换歌。 </string>
+    <string name="help4">  图片浏览：从文件管理中点击一个图片，加载该文件夹中所有图片，提供iphone绚丽的风格浏览，再次单击一图片后可以进入单个图片的操作，放大和缩小不但可通过按钮，更能通过两手指拖拽实现</string>
+    <array name="item_textsize_dialog">
+    	<item>极小</item>
+    	<item>小</item>
+    	<item>中等</item>
+    	<item>大</item>
+    	<item>极大</item>
+    </array>
+     <array name="item_textcolor_dialog">
+    	<item>黑色</item>
+    	<item>灰色</item>
+    	<item>白色</item>
+    	<item>红色</item>
+    	<item>黄色</item>
+    </array>
+      <array name="item_textscale_dialog">
+    	<item>小</item>
+    	<item>正常</item>
+    	<item>大</item>
+    </array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/listbg"
+    >
+  <ImageView
+	android:id="@+id/ebooksetbg"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:background="@drawable/ebookset"
+	/>
+    	
+<ListView
+	  android:id="@android:id/list"
+	  android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+    />
+    <SeekBar
+		android:id="@+id/MySeekBar"
+		android:paddingLeft="5.0dip"
+		android:paddingRight="5.0dip"
+		android:layout_width="fill_parent"
+		android:layout_height="30dip"
+		android:max="255"
+		>
+	</SeekBar>
+</LinearLayout>
